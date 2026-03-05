@@ -13,7 +13,7 @@ body {
     color: #142121;
     margin: 0;
     text-align: center;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
