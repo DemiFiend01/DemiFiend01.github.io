@@ -23,4 +23,5 @@
 .windowMainSection {
     flex: 1;
     border-radius: 8px;
+    min-width: 0;
 }
