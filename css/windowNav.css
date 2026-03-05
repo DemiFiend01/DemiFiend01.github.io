@@ -1,0 +1,26 @@
+.twoSides {
+    display: flex;
+    gap: 20px;
+}
+
+.windowNavBar {
+    flex: 0 0 15%;
+    border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAp0lEQVRYR+3YQQqAMAxEUXuA3v+gPYCu4kKR4UPaGhh3kiGmr0XE1ns/jwJXKzfoGKP9ETYgb9Fyg8YKYnB1P3sXPkXVYM/6tkFnP5j2r3tG6UpX5/0ezRKve0bLvfCztiyrj7c+SzL6WNSiq7+GqLjPKBVTeYsqIVq3KBVTeYsqIVq3KBVTeYsqIVq3KBVTeYsqIVq3KBVTeYsqIVp/idIGq/Nl/o9ed0TYZ1/Oj6UAAAAASUVORK5CYII=") 14 / 14px / 0 round;
+    border-width: 14px;
+    border-style: solid;
+    background-color: #bad6c6;
+    box-shadow: rgb(0, 0, 0, 0.2) 1px 1px 2px 1px, rgb(0, 0, 0, 0.2) -1px -1px 2px 1px;
+
+}
+
+.windowNavBar ul {
+
+    list-style-type: square;
+    text-align: left;
+    padding: 0.5em;
+}
+
+.windowMainSection {
+    flex: 1;
+    border-radius: 8px;
+}

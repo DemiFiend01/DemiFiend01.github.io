@@ -3,18 +3,27 @@
 
 <head>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DemiFiend01 Portfolio Site</title>
 </head>
 
 <body>
-    <header class="site_header">
-        <div class="logo">Welcome to DemiFiend01 Portfolio</div>
-        <nav>
+    <header class="siteHeader">
+        <div class="siteHeader__section">
+            <div class="siteHeader__item logo"><a id="logoLink" href="./fun.html"><img
+                        src="assets/me_in_persona2is_style.webp"></a>
+            </div>
+            <div class="siteHeader__item siteHeader__text">Welcome to DemiFiend01 Portfolio</div>
+        </div>
+        <nav class="siteHeader__section">
             <ul>
-                <li><a href="#about_me">About</a></li>
-                <li><a href="./projects.html">Projects</a></li>
+                <li class="siteHeader__item"><a href="#about_me">About</a></li>
+                <li class="siteHeader__item"><a href="./projects.html">Projects</a></li>
+                <li class="siteHeader__item"><a href="./contact.html">Contact</a></li>
+                <li class="siteHeader__item"><a href="./fun.html">Fun</a></li>
+                <li class="siteHeader__item"><a href="./info.html">Info</a></li>
             </ul>
         </nav>
     </header>
@@ -26,7 +35,7 @@
         </section>
     </main>
     <footer>&#169 DemiFiend01 2026
-        <address>Contact me if you dare</address>
+        <address><a class="contactFooter" href="./contact.html">Contact me if you dare</a></address>
         Made with fingers on a keyboard
     </footer>
 

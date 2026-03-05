@@ -1,6 +1,6 @@
 @font-face {
     font-family: IBM_VGA_8x16;
-    src: url(../assets/fonts/Web437_IBM_VGA_8x16.woff)
+    src: url(../assets/fonts/Web437_IBM_VGA_9x16.woff);
 }
 
 body {
@@ -13,29 +13,41 @@ body {
     width: 100vw;
 }
 
+p {
+    font-size: 1.1em;
+}
+
+a {
+    text-decoration: none;
+}
+
 .window {
     border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAp0lEQVRYR+3YQQqAMAxEUXuA3v+gPYCu4kKR4UPaGhh3kiGmr0XE1ns/jwJXKzfoGKP9ETYgb9Fyg8YKYnB1P3sXPkXVYM/6tkFnP5j2r3tG6UpX5/0ezRKve0bLvfCztiyrj7c+SzL6WNSiq7+GqLjPKBVTeYsqIVq3KBVTeYsqIVq3KBVTeYsqIVq3KBVTeYsqIVq3KBVTeYsqIVp/idIGq/Nl/o9ed0TYZ1/Oj6UAAAAASUVORK5CYII=") 14 / 14px / 0 round;
     border-width: 14px;
     border-style: solid;
-    width: 60%;
+    width: 70%;
     margin: 40px auto 40px auto;
-    background-color: rgb(240, 255, 243);
+    background-color: #f0fff3;
     box-shadow: rgb(0, 0, 0, 0.2) 1px 1px 2px 1px, rgb(0, 0, 0, 0.2) -1px -1px 2px 1px;
 }
 
-
-.site_header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 20px;
-    border-bottom: 2px solid black;
-    background-color: #7aa67b;
-    font-size: 1.2em;
+.windowLinkList {
+    display: table;
+    list-style: none;
+    margin: 0 auto;
+    list-style-position: inside;
 }
 
-.site_header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(20, 33, 33, 0.2);
+    padding: 1em 0 1em 0;
+    border-top: 2px solid black;
+}
+
+.contactFooter {
+    color: rgb(61, 64, 139);
 }

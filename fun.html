@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/windowNav.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DemiFiend01 Portfolio Site</title>
@@ -12,7 +13,7 @@
 <body>
     <header class="siteHeader">
         <div class="siteHeader__section">
-            <div class="siteHeader__item logo"><a id="logoLink" href="./fun.html"><img
+            <div class="siteHeader__item logo"><a id="logoLink" href="#fun"><img
                         src="assets/me_in_persona2is_style.webp"></a>
             </div>
             <div class="siteHeader__item siteHeader__text">Welcome to DemiFiend01 Portfolio</div>
@@ -20,17 +21,32 @@
         <nav class="siteHeader__section">
             <ul>
                 <li class="siteHeader__item"><a href="./index.html">About</a></li>
-                <li class="siteHeader__item"><a href="#projects">Projects</a></li>
+                <li class="siteHeader__item"><a href="./projects.html">Projects</a></li>
                 <li class="siteHeader__item"><a href="./contact.html">Contact</a></li>
-                <li class="siteHeader__item"><a href="./fun.html">Fun</a></li>
+                <li class="siteHeader__item"><a href="#fun">Fun</a></li>
                 <li class="siteHeader__item"><a href="./info.html">Info</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section class="window" id="projects">
-            <h1>Projects</h1>
-            <p>Here will be a list of my projects</p>
+        <section class="window twoSides" id="fun">
+            <nav class="windowNavBar">
+                < <ul>
+                    <li><a href="#funTitle">Fun</a></li>
+                    <li><a href="#music">Music</a></li>
+                    <li><a href="#games">Games</a></li>
+                    </ul>
+            </nav>
+            <section class="windowMainSection">
+                <h1 id="funTitle">Fun</h1>
+                <p>Here will be a list of different topics that I enjoy.</p>
+                <h2 id="music">Music</h2>
+                <p>Artists that I recommend.</p>
+                <h2 id="games">Games</h2>
+                <p>Some of my favourite games.</p>
+            </section>
+
         </section>
     </main>
     <footer>&#169 DemiFiend01 2026
