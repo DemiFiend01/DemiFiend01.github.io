@@ -25,7 +25,8 @@ a {
     border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAp0lEQVRYR+3YQQqAMAxEUXuA3v+gPYCu4kKR4UPaGhh3kiGmr0XE1ns/jwJXKzfoGKP9ETYgb9Fyg8YKYnB1P3sXPkXVYM/6tkFnP5j2r3tG6UpX5/0ezRKve0bLvfCztiyrj7c+SzL6WNSiq7+GqLjPKBVTeYsqIVq3KBVTeYsqIVq3KBVTeYsqIVq3KBVTeYsqIVq3KBVTeYsqIVp/idIGq/Nl/o9ed0TYZ1/Oj6UAAAAASUVORK5CYII=") 14 / 14px / 0 round;
     border-width: 14px;
     border-style: solid;
-    width: 70%;
+    width: 90%;
+    max-width: 900px;
     margin: 40px auto 40px auto;
     background-color: #f0fff3;
     box-shadow: rgb(0, 0, 0, 0.2) 1px 1px 2px 1px, rgb(0, 0, 0, 0.2) -1px -1px 2px 1px;
@@ -36,6 +37,14 @@ a {
     list-style: none;
     margin: 0 auto;
     list-style-position: inside;
+}
+
+@media (max-width: 768px) {
+    footer {
+        position: relative;
+        padding: 0.5em 0;
+        font-size: 0.9em;
+    }
 }
 
 footer {
@@ -49,5 +58,14 @@ footer {
 }
 
 .contactFooter {
-    color: rgb(61, 64, 139);
+    color: rgb(27, 30, 101);
+}
+
+.contactFooter:visited {
+    color: rgb(70, 34, 111);
+}
+
+.contactFooter:hover {
+    color: rgb(20, 65, 148);
+    text-decoration: 1px dashed underline;
 }
