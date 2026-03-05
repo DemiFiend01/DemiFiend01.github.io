@@ -1,9 +1,15 @@
 .logo {
     background-color: rgb(0, 0, 0, 0.15);
     border-right: 2px solid black;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100%;
     width: auto;
-    height: auto;
-    max-height: 110%;
+    display: block;
 }
 
 .siteHeader__hamburger {
@@ -90,6 +96,7 @@
     background-color: #7aa67b;
     font-size: 1.4em;
     overflow: visible;
+    padding-right: 2vw;
 }
 
 .siteHeader__section {

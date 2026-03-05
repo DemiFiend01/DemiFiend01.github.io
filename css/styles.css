@@ -3,14 +3,20 @@
     src: url(../assets/fonts/Web437_IBM_VGA_9x16.woff);
 }
 
+main {
+    flex: 1;
+}
+
 body {
     font-family: IBM_VGA_8x16, "Book Antiqua", Palatino, serif;
     background-color: #8fbc8f;
     color: #142121;
     margin: 0;
     text-align: center;
-    padding-bottom: 50px;
     width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 p {
@@ -25,8 +31,8 @@ a {
     border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAp0lEQVRYR+3YQQqAMAxEUXuA3v+gPYCu4kKR4UPaGhh3kiGmr0XE1ns/jwJXKzfoGKP9ETYgb9Fyg8YKYnB1P3sXPkXVYM/6tkFnP5j2r3tG6UpX5/0ezRKve0bLvfCztiyrj7c+SzL6WNSiq7+GqLjPKBVTeYsqIVq3KBVTeYsqIVq3KBVTeYsqIVq3KBVTeYsqIVq3KBVTeYsqIVp/idIGq/Nl/o9ed0TYZ1/Oj6UAAAAASUVORK5CYII=") 14 / 14px / 0 round;
     border-width: 14px;
     border-style: solid;
-    width: 90%;
-    max-width: 900px;
+    width: 70%;
+
     margin: 40px auto 40px auto;
     background-color: #f0fff3;
     box-shadow: rgb(0, 0, 0, 0.2) 1px 1px 2px 1px, rgb(0, 0, 0, 0.2) -1px -1px 2px 1px;
@@ -41,16 +47,14 @@ a {
 
 @media (max-width: 768px) {
     footer {
-        position: relative;
+        position: static;
         padding: 0.5em 0;
         font-size: 0.9em;
     }
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    position: static;
     width: 100%;
     background-color: rgb(20, 33, 33, 0.2);
     padding: 1em 0 1em 0;
