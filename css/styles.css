@@ -37,8 +37,8 @@ p {
 }
 
 .window p {
-    padding-left: 5em;
-    padding-right: 5em;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 a {
@@ -51,7 +51,7 @@ a {
     border-style: solid;
     width: 70%;
 
-    margin: 40px auto 40px auto;
+    margin: 1vh auto 1vh auto;
     background-color: #f0fff3;
     box-shadow: rgb(0, 0, 0, 0.2) 1px 1px 2px 1px, rgb(0, 0, 0, 0.2) -1px -1px 2px 1px;
 }
