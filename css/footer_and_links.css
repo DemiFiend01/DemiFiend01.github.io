@@ -1,0 +1,36 @@
+footer {
+    position: static;
+    width: 100%;
+    background-color: #7aa67b;
+    padding: 1em 0 1em 0;
+    border-top: 2px solid black;
+    box-shadow: rgb(0, 0, 0, 0.2) 0px -1px 3px;
+}
+
+.contactFooter,
+.windowLinkList li a {
+    color: rgb(27, 30, 101);
+}
+
+.contactFooter:visited,
+.windowLinkList li a:visited {
+    color: rgb(70, 34, 111);
+}
+
+.contactFooter:hover,
+.windowLinkList li a:hover {
+    color: rgb(20, 65, 148);
+    text-decoration: 1px dashed underline;
+}
+
+.contactFooter:focus,
+.windowLinkList li a:focus {
+    color: rgb(54, 89, 156);
+}
+
+.contactFooter:active,
+.windowLinkList li a:active {
+    transition: font-size 0.2s, color 0.1s;
+    color: #ffffff;
+    font-size: 0.99em;
+}
