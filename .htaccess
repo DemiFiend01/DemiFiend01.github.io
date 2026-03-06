@@ -1,1 +1,4 @@
 ErrorDocument 404 /404.html
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} (CCBot|ChatGPT|GPTBot|anthropic-ai|ClaudeBot|Google-CloudVertexBot|Omgilibot|Omgili|FacebookBot|Meta-ExternalAgent|Meta-ExternalFetcher|Diffbot|DuckAssistBot|AI2Bot|Bytespider|PerplexityBot|ImagesiftBot|Kangaroo\ Bot|cohere-ai|cohere-training-data-crawler|PanguBot|Timpibot|Webzio-Extended|YouBot) [NC]
+RewriteRule ^ – [F]

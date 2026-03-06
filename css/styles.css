@@ -3,6 +3,18 @@
     src: url(../assets/fonts/Web437_IBM_VGA_9x16.woff);
 }
 
+/* Selecting text */
+::-moz-selection {
+    /* Code for Firefox */
+    color: #f0fff3;
+    background: #4e6a4e;
+}
+
+::selection {
+    color: #f0fff3;
+    background: #4e6a4e;
+}
+
 main {
     flex: 1;
 }
@@ -22,6 +34,11 @@ body {
 
 p {
     font-size: 1.1em;
+}
+
+.window p {
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 a {
