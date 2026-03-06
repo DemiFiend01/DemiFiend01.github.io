@@ -42,11 +42,11 @@
     footer {
         position: static;
         padding: 0.3em 0;
-        font-size: 0.7em;
+        font-size: 0.6em;
     }
 
     .manul {
-        height: 3vh;
+        height: 1vh;
         width: auto;
     }
 
