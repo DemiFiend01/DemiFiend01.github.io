@@ -17,6 +17,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-size: 1.0em;
 }
 
 p {
@@ -39,10 +40,38 @@ a {
 }
 
 .windowLinkList {
-    display: table;
-    list-style: none;
-    margin: 0 auto;
+    text-align: left;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5vw;
+    list-style-type: square;
     list-style-position: inside;
+}
+
+.windowLinkGithub {
+    list-style-image: url("/assets/github_icon.png")
+}
+
+.windowLinkLinkedIn {
+    list-style-image: url("/assets/linkedin_icon.png")
+}
+
+.homeButtonLink img {
+    width: auto;
+    height: auto;
+}
+
+.homeButtonLink:hover img {
+    transition: filter 0.2s, width 0.3s;
+    filter: brightness(0.8);
+    transform: scale(1.025);
+}
+
+.homeButtonLink:active img {
+    transition: filter 0.2s, width 0.1s;
+    filter: brightness(1.3);
+    transform: scale(0.950);
 }
 
 @media (max-width: 768px) {
@@ -59,17 +88,33 @@ footer {
     background-color: rgb(20, 33, 33, 0.2);
     padding: 1em 0 1em 0;
     border-top: 2px solid black;
+    box-shadow: rgb(0, 0, 0, 0.2) 0px -1px 3px;
 }
 
-.contactFooter {
+.contactFooter,
+.windowLinkList li a {
     color: rgb(27, 30, 101);
 }
 
-.contactFooter:visited {
+.contactFooter:visited,
+.windowLinkList li a:visited {
     color: rgb(70, 34, 111);
 }
 
-.contactFooter:hover {
+.contactFooter:hover,
+.windowLinkList li a:hover {
     color: rgb(20, 65, 148);
     text-decoration: 1px dashed underline;
+}
+
+.contactFooter:focus,
+.windowLinkList li a:focus {
+    color: rgb(54, 89, 156);
+}
+
+.contactFooter:active,
+.windowLinkList li a:active {
+    transition: font-size 0.2s, color 0.1s;
+    color: #ffffff;
+    font-size: 0.99em;
 }

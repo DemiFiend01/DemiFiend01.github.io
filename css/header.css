@@ -10,6 +10,12 @@
     height: 100%;
     width: auto;
     display: block;
+    box-shadow: rgb(0, 0, 0, 0.2) 0px 4px 3px -3px;
+}
+
+.logo:hover img {
+    transition: filter 0.2s;
+    filter: brightness(1.2);
 }
 
 .siteHeader__hamburger {
@@ -98,6 +104,7 @@
     font-size: 1.4em;
     overflow: visible;
     padding-right: 2vw;
+    box-shadow: rgb(0, 0, 0, 0.2) 0px 1px 3px;
 }
 
 .siteHeader__section {
@@ -115,25 +122,30 @@
     gap: 20px;
 }
 
-.siteHeader__item a {
+.siteHeader__item a,
+.funNavigation li {
     color: #142121;
 }
 
-.siteHeader__item a:visited {
+.siteHeader__item a:visited,
+.funNavigation li a:visited {
     color: #142121;
 }
 
-.siteHeader__item a:hover {
+.siteHeader__item a:hover,
+.funNavigation li a:hover {
     color: #f0fff3;
-    text-decoration: underline;
+    text-decoration: underline dashed;
 }
 
-.siteHeader__item a:active {
+.siteHeader__item a:active,
+.funNavigation li a:active {
     color: #ffffff;
 }
 
-.siteHeader__item:not(.logo) a:focus {
+.siteHeader__item:not(.logo) a:focus,
+.funNavigation li a:focus {
     color: #f0fff3;
-    text-decoration: underline;
+    text-decoration: underline dashed;
     outline: 0.2em dashed #142121;
 }
