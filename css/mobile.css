@@ -86,6 +86,9 @@
         font-size: 1.1em;
         height: auto !important;
         overflow: visible;
+        width: 100%;
+        box-sizing: border-box;
+        padding-right: 0;
     }
 
     .siteHeader__text {
