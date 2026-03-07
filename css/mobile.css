@@ -51,6 +51,11 @@
         width: auto;
     }
 
+    .counter {
+        height: 6vw;
+        width: auto;
+    }
+
     .siteHeader__hamburger {
         display: block;
         position: absolute;
@@ -114,7 +119,6 @@
         gap: 0;
         padding: 4px 0;
     }
-
 
     .siteHeader__item {
         padding: 6px 12px;
