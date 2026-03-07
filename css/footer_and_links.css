@@ -27,8 +27,11 @@ footer {
     flex: 0.4;
     display: flex;
     align-items: center;
-    justify-content: right;
-    padding-right: 1vw;
+    justify-content: center;
+}
+
+.counter {
+    border: 1.5px black solid;
 }
 
 footer p,
