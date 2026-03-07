@@ -52,7 +52,17 @@
     }
 
     .counterWrapper {
+        display: inline-block;
+        width: 8vw;
         max-width: 8vw;
+        overflow: hidden;
+    }
+
+    .counter {
+        display: block;
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
     }
 
     .siteHeader__hamburger {
