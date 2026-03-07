@@ -51,9 +51,8 @@
         width: auto;
     }
 
-    footer .counter {
-        height: 8vw !important;
-        width: auto !important;
+    .counterWrapper {
+        max-width: 12vw;
     }
 
     .siteHeader__hamburger {
