@@ -53,9 +53,18 @@
 
     .counterWrapper {
         display: inline-block;
-        width: 15vw;
-        max-width: 15vw;
+        width: 30vw;
         overflow: hidden;
+    }
+
+    .counterWrapper p {
+        margin: 0;
+        padding: 0;
+        line-height: 0;
+    }
+
+    .counterWrapper a {
+        display: block;
     }
 
     .counter {
