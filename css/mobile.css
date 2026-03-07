@@ -68,13 +68,15 @@
         display: block;
     } */
 
+    .footerRight {
+        text-align: right;
+    }
+
     .counter {
         display: block;
         width: 100% !important;
         height: auto !important;
         max-width: 100% !important;
-        margin-left: auto;
-        margin-right: 3vw;
     }
 
     .siteHeader__hamburger {
