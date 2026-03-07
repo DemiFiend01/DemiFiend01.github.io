@@ -53,8 +53,8 @@
 
     .counterWrapper {
         display: inline-block;
-        width: 6vw;
-        max-width: 6vw;
+        width: 10vw;
+        max-width: 10vw;
         overflow: hidden;
     }
 
