@@ -167,6 +167,8 @@ a {
     margin-right: auto;
     overflow: hidden;
     box-sizing: border-box;
+    isolation: isolate;
+    /*firefox fix*/
 }
 
 .svg svg {
