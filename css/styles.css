@@ -152,3 +152,7 @@ a {
     filter: brightness(1.3);
     transform: scale(0.950);
 }
+
+.svg {
+    background: linear-gradient(#EEAECA, #AB94E9);
+}
