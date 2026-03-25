@@ -45,12 +45,52 @@
         </nav>
     </header>
     <main>
-        <section class="window" id="projects">
-            <h1>Projects</h1>
-            <p>Here will be a list of my projects</p>
-            <div class="homeButtonSection" aria-label="Go back to main page button"><a class="homeButtonLink"
-                    href="/"><img src="/assets/3ds_home_button.webp"
-                        alt="Nintendo 3DS console inspired Home button"></a></div>
+        <section class="window twoSides" id="fun">
+            <nav class="windowNavBar">
+                <ul role="navigation" class="funNavigation">
+                    <li><a href="#projectTitle">Projects</a></li>
+                    <li><a href="#PBL">PBL</a></li>
+                    <li><a href="#Sphinx">Sphinx</a></li>
+                    <li><a href="#Railfence">Railfence</a></li>
+                    <li><a href="#Nostromo">Nostromo</a></li>                    
+                </ul>
+
+            </nav> <!-- Encapsulate the projects into their little windows -->
+            <section class="windowMainSection">
+                <h1 id="projectTitle">Projects</h1>
+                <section class="project_capsule">
+                    <h2 id="PBL">PBL - Dora project</h2>
+                    <p class="left_aligned_text">Remotely controlled platform with a LiDAR scanner.
+                        My part consisted of creating the controller based on ESP32C3 among others</p>
+                    <p><a href="/projects/dora">Read more</a></p>
+                </section>
+                <section class="project_capsule">
+                    <h2 id="Sphinx">LLM Sphinx Game</h2>
+                    <p class="left_aligned_text">Game created for Noc Naukowcow 2025.
+                        Judge system implemented using Gemini API.
+                        Raycasting mixed with maze generation algorithm.</p>
+                    <p><a href="/projects/sphinx">Read more</a></p> 
+                </section>
+                <section class="project_capsule">
+                    <h2 id="Railfence">RailFence web and desktop app</h2>
+                    <p class="left_aligned_text">Application created in Java.
+                    Desktop version based on Swing, contains rich accessibility features.
+                    Web version uses JPA and cookies.</p>
+                    <p><a href="/projects/railfence">Read more</a></p> 
+                </section>
+                <section class="project_capsule">
+                    <h2 id="Nostromo">Text-based masm and C# game</h2>
+                    <p class="left_aligned_text">Escape from Nostromo is a text-based game developed in a team.
+                        Game logic written in masm, GUI created in C#.
+                        C++ versus masm benchmarking.</p>
+                    <p><a href="/projects/nostromo">Read more</a></p> 
+                </section>
+                <div class="homeButtonSection" aria-label="Go back to main page button"><a class="homeButtonLink"
+                        href="/"><img src="/assets/3ds_home_button.webp"
+                            alt="Nintendo 3DS console inspired Home button"></a>
+                </div>
+            </section>
+
         </section>
     </main>
     <footer>

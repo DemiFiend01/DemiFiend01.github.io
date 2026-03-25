@@ -51,22 +51,10 @@
         width: auto;
     }
 
-    /* .counterWrapper {
-        display: inline-block;
-        width: 10vw;
-        overflow: hidden;
+    .left_aligned_text p { /* overloading */
+        padding-left: 4vw;
+        padding-right: 4vw;
     }
-
-    .counterWrapper p {
-        margin: 0;
-        padding: 0;
-        padding-right: 1vw;
-        line-height: 0;
-    }
-
-    .counterWrapper a {
-        display: block;
-    } */
 
     .footerRight {
         text-align: right;
@@ -148,4 +136,11 @@
         width: auto;
     }
 
+}
+
+@media (max-width: 1200px) {
+    .siteHeader__text {
+        text-align: center;
+        font-size: 0.8em;
+    }
 }
