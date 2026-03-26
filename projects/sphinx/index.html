@@ -15,10 +15,10 @@
     <link rel="manifest" href="/assets/favicon/site.webmanifest" />
     <link rel="manifest" href="/assets/site.webmanifest" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="DemiFiend01 Portfolio Website - Projects"/>
-    <meta property="og:description" content="Check out my projects and contact information!"/>
-    <meta property="og:image" content="/assets/favicon/favicon.svg"/>
-    <meta property="og:url" content="https://demifiend01.github.io/projects/"/>
+    <meta property="og:title" content="DemiFiend01 Portfolio Website - Projects" />
+    <meta property="og:description" content="Check out my projects and contact information!" />
+    <meta property="og:image" content="/assets/favicon/favicon.svg" />
+    <meta property="og:url" content="https://demifiend01.github.io/projects/" />
     <meta name="robots" content="noai, noimageai">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +28,7 @@
 <body>
     <header class="siteHeader">
         <div class="siteHeader__section">
-            <div class="siteHeader__item logo"><a id="logoLink" href="/fun"><img
+            <div class="siteHeader__item logo"><a id="logoLink" href="/fun" title="Hello!"><img
                         src="/assets/me_in_persona2is_style.webp" alt="Persona 2 inspired self portrait"></a>
             </div>
             <div class="siteHeader__item siteHeader__text">Welcome to DemiFiend01's Portfolio</div>
@@ -36,11 +36,11 @@
         </div>
         <nav class="siteHeader__section">
             <ul>
-                <li class="siteHeader__item"><a href="/">About</a></li>
-                <li class="siteHeader__item"><a href="#projects">Projects</a></li>
-                <li class="siteHeader__item"><a href="/contact">Contact</a></li>
-                <li class="siteHeader__item"><a href="/fun">Fun</a></li>
-                <li class="siteHeader__item"><a href="/info">Info</a></li>
+                <li class="siteHeader__item"><a href="/" title="Home Page">About</a></li>
+                <li class="siteHeader__item"><a href="/projects" title="Check out my projects">Projects</a></li>
+                <li class="siteHeader__item"><a href="/contact" title="How to contact me">Contact</a></li>
+                <li class="siteHeader__item"><a href="/fun" title="Hobbies & Interests">Fun</a></li>
+                <li class="siteHeader__item"><a href="/info" title="Information about the website">Info</a></li>
             </ul>
         </nav>
     </header>
@@ -65,13 +65,15 @@
                 One possible solution, is to incorporate a LLM in checking the inputs and evaluating their correctness.
                 Unfortunately, as my hardware does not support CUDA,
                 my model couldn't possibly be local and thus I relied on Gemini API.
-                This was a constraint and a hurdle 
-                since I became dependant on the internet connection and the generosity of free tier. 
+                This was a constraint and a hurdle
+                since I became dependant on the internet connection and the generosity of free tier.
             </p>
             <p class="left_aligned_text side_margins">
                 Once I had the model figured out, I moved to the other part of the project.
                 Randomly generated maze in a raycasted environment with the goal right in the middle.
-                I programmed the everything in pygame and tkinter, and one particular <a href="https://youtu.be/ECqUrT7IdqQ?si=6O8uIk7b5uKbZmJr">tutorial</a> had been a huge help in this endeavour.
+                I programmed the everything in pygame and tkinter, and one particular <a
+                    href="https://youtu.be/ECqUrT7IdqQ?si=6O8uIk7b5uKbZmJr">tutorial</a> had been a huge help in this
+                endeavour.
             </p>
             <p class="left_aligned_text side_margins">
                 The game functions like this - you have two modes and two difficulty levels.
@@ -86,19 +88,18 @@
             <p class="left_aligned_text side_margins">
                 This project had been so much fun and I enjoyed every element of it.
                 The planning, researching LLM models, drawing every resource and obviously coding.
-                I presented my work at a booth as a part of DataScience student research group's field game. 
+                I presented my work at a booth as a part of DataScience student research group's field game.
                 It was a blast.
             </p>
             <ul class="windowList">
-                <li class="windowLinkGithub"><a href="https://github.com/DemiFiend01/Labirynt-Sfinksa">Github repository</a></li>
+                <li class="windowLinkGithub"><a href="https://github.com/DemiFiend01/Labirynt-Sfinksa">Github
+                        repository</a></li>
             </ul>
-            <div class="homeButtonSection" aria-label="Go back to main page button">
-                <a class="homeButtonLink"
-                    href="/projects/"><img src="/assets/3ds_home_button.webp"
-                    alt="Nintendo 3DS console inspired Home button"></a>
-                <a class="homeButtonLink"
-                    href="/"><img src="/assets/3ds_home_button.webp"
-                    alt="Nintendo 3DS console inspired Home button"></a>
+            <div class="homeButtonSection" aria-label="Go back to either projects page or main page buttons">
+                <a class="homeButtonLink" href="/projects/" title="Go Back"><img src="/assets/go_back_button.webp"
+                        alt="Nintendo 3DS console inspired button for returning to projects page"></a>
+                <a class="homeButtonLink" href="/" title="Go Home"><img src="/assets/3ds_home_button.webp"
+                        alt="Nintendo 3DS console inspired Home button"></a>
             </div>
         </section>
     </main>
@@ -111,7 +112,8 @@
         </section>
         <section class="footerRight">
             <p>
-                <a href="https://hits.sh/demifiend01.github.io/"><img alt="Hits" class="counter"
+                <a href="https://hits.sh/demifiend01.github.io/" title="Thank you for visiting my website!"><img
+                        alt="Hits" class="counter"
                         src="https://hits.sh/demifiend01.github.io.svg?style=for-the-badge&color=9f9f9f&logo=fedora" /></a>
             </p>
         </section>
