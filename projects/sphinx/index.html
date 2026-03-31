@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/windowNav.css">
     <link rel="stylesheet" href="/css/footer_and_links.css">
     <link rel="stylesheet" href="/css/mobile.css">
+    <link rel="stylesheet" href="/css/mySlides.css">
     <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
     <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
@@ -15,10 +16,10 @@
     <link rel="manifest" href="/assets/favicon/site.webmanifest" />
     <link rel="manifest" href="/assets/site.webmanifest" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="DemiFiend01 Portfolio Website - Projects"/>
-    <meta property="og:description" content="Check out my projects and contact information!"/>
-    <meta property="og:image" content="/assets/favicon/favicon.svg"/>
-    <meta property="og:url" content="https://demifiend01.github.io/projects/"/>
+    <meta property="og:title" content="DemiFiend01 Portfolio Website - Projects" />
+    <meta property="og:description" content="Check out my projects and contact information!" />
+    <meta property="og:image" content="/assets/favicon/favicon.svg" />
+    <meta property="og:url" content="https://demifiend01.github.io/projects/" />
     <meta name="robots" content="noai, noimageai">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +29,7 @@
 <body>
     <header class="siteHeader">
         <div class="siteHeader__section">
-            <div class="siteHeader__item logo"><a id="logoLink" href="/fun"><img
+            <div class="siteHeader__item logo"><a id="logoLink" href="/fun" title="Hello!"><img
                         src="/assets/me_in_persona2is_style.webp" alt="Persona 2 inspired self portrait"></a>
             </div>
             <div class="siteHeader__item siteHeader__text">Welcome to DemiFiend01's Portfolio</div>
@@ -36,11 +37,11 @@
         </div>
         <nav class="siteHeader__section">
             <ul>
-                <li class="siteHeader__item"><a href="/">About</a></li>
-                <li class="siteHeader__item"><a href="#projects">Projects</a></li>
-                <li class="siteHeader__item"><a href="/contact">Contact</a></li>
-                <li class="siteHeader__item"><a href="/fun">Fun</a></li>
-                <li class="siteHeader__item"><a href="/info">Info</a></li>
+                <li class="siteHeader__item"><a href="/" title="Home Page">About</a></li>
+                <li class="siteHeader__item"><a href="/projects" title="Check out my projects">Projects</a></li>
+                <li class="siteHeader__item"><a href="/contact" title="How to contact me">Contact</a></li>
+                <li class="siteHeader__item"><a href="/fun" title="Hobbies & Interests">Fun</a></li>
+                <li class="siteHeader__item"><a href="/info" title="Information about the website">Info</a></li>
             </ul>
         </nav>
     </header>
@@ -65,13 +66,15 @@
                 One possible solution, is to incorporate a LLM in checking the inputs and evaluating their correctness.
                 Unfortunately, as my hardware does not support CUDA,
                 my model couldn't possibly be local and thus I relied on Gemini API.
-                This was a constraint and a hurdle 
-                since I became dependant on the internet connection and the generosity of free tier. 
+                This was a constraint and a hurdle
+                since I became dependant on the internet connection and the generosity of free tier.
             </p>
             <p class="left_aligned_text side_margins">
                 Once I had the model figured out, I moved to the other part of the project.
                 Randomly generated maze in a raycasted environment with the goal right in the middle.
-                I programmed the everything in pygame and tkinter, and one particular <a href="https://youtu.be/ECqUrT7IdqQ?si=6O8uIk7b5uKbZmJr">tutorial</a> had been a huge help in this endeavour.
+                I programmed the everything in pygame and tkinter, and one particular <a
+                    href="https://youtu.be/ECqUrT7IdqQ?si=6O8uIk7b5uKbZmJr">tutorial</a> had been a huge help in this
+                endeavour.
             </p>
             <p class="left_aligned_text side_margins">
                 The game functions like this - you have two modes and two difficulty levels.
@@ -86,19 +89,88 @@
             <p class="left_aligned_text side_margins">
                 This project had been so much fun and I enjoyed every element of it.
                 The planning, researching LLM models, drawing every resource and obviously coding.
-                I presented my work at a booth as a part of DataScience student research group's field game. 
+                I presented my work at a booth as a part of DataScience student research group's field game.
                 It was a blast.
             </p>
+            <div class="slideshow slideshow_container">
+                <div class="slideshow mySlides fade">
+                    <a href="/assets/sphinx/sphinx_main_menu.webp" title="Main menu">
+                        <img class="slideshow mySlidesPhoto" src="/assets/sphinx/sphinx_main_menu.webp"
+                            alt="Pixel art game main menu made in Tkinter">
+                    </a>
+                    <p class="slideshow mySlidesCaption">Main menu</p>
+                    <p class="slideshow mySlidesNumber">1 / 7</p>
+                </div>
+                <div class="slideshow mySlides fade">
+                    <a href="/assets/sphinx/sphinx_maze.webp" title="Raycasted maze">
+                        <img class="slideshow mySlidesPhoto" src="/assets/sphinx/sphinx_maze.webp"
+                            alt="Pixel art game 3D dark maze">
+                    </a>
+                    <p class="slideshow mySlidesCaption">Maze</p>
+                    <p class="slideshow mySlidesNumber">2 / 7</p>
+                </div>
+                <div class="slideshow mySlides fade">
+                    <a href="/assets/sphinx/sphinx_map.webp" title="Map menu">
+                        <img class="slideshow mySlidesPhoto" src="/assets/sphinx/sphinx_map.webp"
+                            alt="Pixel art map menu">
+                    </a>
+                    <p class="slideshow mySlidesCaption">Map menu</p>
+                    <p class="slideshow mySlidesNumber">3 / 7</p>
+                </div>
+                <div class="slideshow mySlides fade">
+                    <a href="/assets/sphinx/sphinx_welcome.webp" title="Sphinx welcoming the player">
+                        <img class="slideshow mySlidesPhoto" src="/assets/sphinx/sphinx_welcome.webp"
+                            alt="Pixel art Sphinx in a dark environment welcoming the player">
+                    </a>
+                    <p class="slideshow mySlidesCaption">Sphinx start</p>
+                    <p class="slideshow mySlidesNumber">4 / 7</p>
+                </div>
+                <div class="slideshow mySlides fade">
+                    <a href="/assets/sphinx/sphinx_python.webp" title="Sphinx's riddle">
+                        <img class="slideshow mySlidesPhoto" src="/assets/sphinx/sphinx_python.webp"
+                            alt="Pixel art Sphinx asking the player a riddle">
+                    </a>
+                    <p class="slideshow mySlidesCaption">Sphinx riddle</p>
+                    <p class="slideshow mySlidesNumber">5 / 7</p>
+                </div>
+                <div class="slideshow mySlides fade">
+                    <a href="/assets/sphinx/sphinx_answer.webp" title="Sphinx's response to a correct answer">
+                        <img class="slideshow mySlidesPhoto" src="/assets/sphinx/sphinx_answer.webp"
+                            alt="Pixel art Sphinx replying to a correct answer">
+                    </a>
+                    <p class="slideshow mySlidesCaption">Sphinx correct answer</p>
+                    <p class="slideshow mySlidesNumber">6 / 7</p>
+                </div>
+                <div class="slideshow mySlides fade">
+                    <a href="/assets/sphinx/sphinx_results.webp" title="Game results">
+                        <img class="slideshow mySlidesPhoto" src="/assets/sphinx/sphinx_results.webp"
+                            alt="Pixel art game result screen">
+                    </a>
+                    <p class="slideshow mySlidesCaption">Result menu</p>
+                    <p class="slideshow mySlidesNumber">7 / 7</p>
+                </div>
+                <a class="slideshow mySlidesPrev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="slideshow mySlidesNext" onclick="plusSlides(1)">&#10095;</a>
+                <div class=" mySlidesButton">
+                    <div class=" mySlidesDot" onclick="currentSlide(1)"></div>
+                    <div class=" mySlidesDot" onclick="currentSlide(2)"></div>
+                    <div class=" mySlidesDot" onclick="currentSlide(3)"></div>
+                    <div class=" mySlidesDot" onclick="currentSlide(4)"></div>
+                    <div class=" mySlidesDot" onclick="currentSlide(5)"></div>
+                    <div class=" mySlidesDot" onclick="currentSlide(6)"></div>
+                    <div class=" mySlidesDot" onclick="currentSlide(7)"></div>
+                </div>
+            </div>
+
             <ul class="windowList">
-                <li class="windowLinkGithub"><a href="https://github.com/DemiFiend01/Labirynt-Sfinksa">Github repository</a></li>
+                <li class="windowLinkGithub"><a href="https://github.com/DemiFiend01/Labirynt-Sfinksa">Github
+                        repository</a></li>
             </ul>
-            <div class="homeButtonSection" aria-label="Go back to main page button">
-                <a class="homeButtonLink"
-                    href="/projects/"><img src="/assets/3ds_home_button.webp"
-                    alt="Nintendo 3DS console inspired Home button"></a>
-                <a class="homeButtonLink"
-                    href="/"><img src="/assets/3ds_home_button.webp"
-                    alt="Nintendo 3DS console inspired Home button"></a>
+            <div class="homeButtonSection" aria-label="Go back to either projects page or main page buttons">
+                <a class="homeButtonLink" href="/projects/" title="Go Back"><img src="/assets/go_back_button.webp"
+                        alt="Nintendo 3DS console inspired button for returning to projects page"></a>
+                <a class="homeButtonLink" href="/" title="Go Home"><img src="/assets/3ds_home_button.webp"
+                        alt="Nintendo 3DS console inspired Home button"></a>
             </div>
         </section>
     </main>
@@ -111,7 +183,8 @@
         </section>
         <section class="footerRight">
             <p>
-                <a href="https://hits.sh/demifiend01.github.io/"><img alt="Hits" class="counter"
+                <a href="https://hits.sh/demifiend01.github.io/" title="Thank you for visiting my website!"><img
+                        alt="Hits" class="counter"
                         src="https://hits.sh/demifiend01.github.io.svg?style=for-the-badge&color=9f9f9f&logo=fedora" /></a>
             </p>
         </section>
