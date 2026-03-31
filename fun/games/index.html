@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/windowNav.css">
     <link rel="stylesheet" href="/css/footer_and_links.css">
     <link rel="stylesheet" href="/css/mobile.css">
     <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
@@ -14,20 +15,20 @@
     <link rel="manifest" href="/assets/favicon/site.webmanifest" />
     <link rel="manifest" href="/assets/site.webmanifest" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="DemiFiend01 Portfolio Website - Info" />
-    <meta property="og:description" content="Check out the resources I have used!" />
+    <meta property="og:title" content="DemiFiend01 Portfolio Website - Games" />
+    <meta property="og:description" content="Games recommendation" />
     <meta property="og:image" content="/assets/favicon/favicon.svg" />
-    <meta property="og:url" content="https://demifiend01.github.io/info/" />
+    <meta property="og:url" content="https://demifiend01.github.io/fun/" />
     <meta name="robots" content="noai, noimageai">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DemiFiend01 Portfolio Site - Info</title>
+    <title>DemiFiend01 Portfolio Site - Games Recommendations</title>
 </head>
 
 <body>
     <header class="siteHeader">
         <div class="siteHeader__section">
-            <div class="siteHeader__item logo"><a id="logoLink" href="/fun" title="Hello!"><img
+            <div class="siteHeader__item logo"><a id="logoLink" href="#fun" title="Hello!"><img
                         src="/assets/me_in_persona2is_style.webp" alt="Persona 2 inspired self portrait"></a>
             </div>
             <div class="siteHeader__item siteHeader__text">Welcome to DemiFiend01's Portfolio</div>
@@ -45,33 +46,34 @@
     </header>
 
     <main>
-        <section class="window" id="info">
-            <h1>Additional Information</h1>
-            <hr>
-            <p>Links to the resources I have used:</p>
-            <ul class="windowList">
-                <li><a class="windowLinks" href="https://lunggolfs.itch.io/social-connect-icons-pack">Social Media
-                        icons</a></li>
-                <li><a class="windowLinks" href="https://int10h.org/oldschool-pc-fonts/download/">Font (IBM VGA
-                        9x16 does not support polish signs)</a></li>
-                <li><a class="windowLinks" href="https://maxbittker.github.io/broider/">Window borders</a></li>
-                <li><a class="windowLinks"
-                        href="https://www.spriters-resource.com/playstation/persona2innocentsin/">Profile picture
-                        inspiration ;&#41;</a></li>
-                <li><a class="windowLinks"
-                        href="https://neil-clarke.com/block-the-bots-that-feed-ai-models-by-scraping-your-website/">Article
-                        about fending off AI-bots</a></li>
-                <li><a class="windowLinks" href="https://www.w3schools.com/howto/howto_js_slideshow.asp">Tutorial on
-                        how to create a slideshow</a></li>
-            </ul>
-            <p>Biggest Thanks to all the authors!</p>
-            <div class="homeButtonSection" aria-label="Go back to main page button"><a class="homeButtonLink" href="/"
-                    title="Go Home"><img src="/assets/3ds_home_button.webp"
-                        alt="Nintendo 3DS console inspired Home button"></a></div>
+        <section class="window twoSides" id="fun">
+            <nav class="windowNavBar">
+                <ul role="navigation" class="funNavigation">
+                    <li><a href="#gamesTitle">Games</a></li>
+                    <li><a href="#persona2">Persona 2</a></li>
+                    <li><a href="#hades2">Hades 2</a></li>
+                </ul>
+
+            </nav>
+            <section class="windowMainSection">
+                <h1 id="gamesTitle">Games</h1>
+                <p>My favourite games that I sometimes recommend.</p>
+                <hr>
+                <h2 id="persona2">Persona 2</h2>
+                <p class="left_aligned_text">Suprising absolutely no one, who recognises the style of my profile picture.</p>
+                <h2 id="hades2">Hades 2</h2>
+                <p class="left_aligned_text">Another sequel on this list, how exciting.</p>
+                <div class="homeButtonSection" aria-label="Go back to main page button"><a class="homeButtonLink"
+                        href="/" title="Go Home"><img src="/assets/3ds_home_button.webp"
+                            alt="Nintendo 3DS console inspired Home button"></a>
+                </div>
+            </section>
+
         </section>
     </main>
     <footer>
-        <section class="footerLeft"></section>
+        <section class="footerLeft"><a href="flowers/" title="Mreow."><img class="manul" src="/assets/manul.gif"
+                    alt="Manul cat pixel art gif"></a></section>
         <section class="footerCentre">
             <p>&copy; DemiFiend01 2026</p>
             <address><a class="contactFooter" href="/contact">Contact me if you dare</a></address>

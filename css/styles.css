@@ -169,7 +169,7 @@ a {
     width: fit-content;
 }
 
-ol.side_margins {
+ol.left_aligned_text {
     display: inline-block;
     text-align: left;
     list-style-position: inside;
